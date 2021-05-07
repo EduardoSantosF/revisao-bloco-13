@@ -19,5 +19,7 @@ module.exports = {
   ],
   rules: {
     'react/jsx-one-expression-per-line': 'off',
+    'react/prefer-stateless-function': 'off',
+    'react/prop-types': 'off',
   },
 };

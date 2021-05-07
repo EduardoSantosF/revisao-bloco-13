@@ -1,0 +1,9 @@
+:root {
+  --green-trybe: #45b382
+}
+
+body {
+  margin: 0;
+  background-color: #EDEDED;
+  color: #333;
+}
