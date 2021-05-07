@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 // import MainPage from './pages/MainPage';
 // import DetailsPage from './pages/DetailsPage';
+// import LoadingPage from './pages/LoadingPage';
 
 import './css/App.css';
 
