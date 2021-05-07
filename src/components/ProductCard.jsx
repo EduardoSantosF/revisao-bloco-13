@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../css/ProductCard.css';
 
 export default class ProductCard extends Component {
@@ -9,7 +10,7 @@ export default class ProductCard extends Component {
       },
     } = this.props;
     return (
-      <div className="product-card">
+      <Link to={`/details/${id}`} className="product-card">
         <div className="product-img">
           <img src={thumbnail.replace('I.jpg', 'F.jpg')} alt="product" />
         </div>
@@ -17,7 +18,7 @@ export default class ProductCard extends Component {
           <span>{title}</span>
           <span>R${price.toLocaleString()}</span>
         </div>
-      </div>
+      </Link>
     );
   }
 }
