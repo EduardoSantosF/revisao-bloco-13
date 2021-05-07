@@ -45,6 +45,15 @@ header > button {
   border-bottom-right-radius: 2px;
 }
 
+header > button:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.589);
+}
+
+header > button:active {
+  box-shadow: 0 1px 2px 0 #45b38167;
+}
+
 .header-img {
   height: 40px;
 }

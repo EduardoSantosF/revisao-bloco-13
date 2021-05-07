@@ -6,7 +6,6 @@ import '../css/Header.css';
 
 class Header extends Component {
   render() {
-    const { onClick } = this.props;
     return (
       <header>
         <div>
@@ -14,7 +13,7 @@ class Header extends Component {
           <img src={mercadoTrybe} alt="mercado trybe title" className="header-img title" />
         </div>
         <input type="text" placeholder="Buscar produtos, marcas e muito mais…" />
-        <button type="button" onClick={onClick}>
+        <button type="button">
           <img src={searchIcon} alt="search icon" />
         </button>
       </header>

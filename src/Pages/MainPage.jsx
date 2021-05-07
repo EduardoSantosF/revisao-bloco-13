@@ -9,7 +9,7 @@ export default class MainPage extends Component {
     const { products } = this.props;
     return (
       <div className="product-list">
-        {products.map((product) => <ProductCard product={product} />)}
+        {products.map((product) => <ProductCard product={product} key={product.id} />)}
       </div>
     );
   }
